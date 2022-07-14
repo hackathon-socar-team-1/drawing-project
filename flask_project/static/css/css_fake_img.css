@@ -1,0 +1,61 @@
+.fake_img_css{
+    float: left;
+    width:50%;
+
+    height:100vh;
+}
+.fake_image_css{
+
+    margin-top: 25%;
+    margin-right: 10%;
+    float : right;
+}
+.fake_img_content_all{
+
+    float:right;
+    width:50%;
+    height:100vh;
+    margin-top: 5%;
+}
+.fake_img_content_inner{
+    margin-left: 5%;
+    margin-top:5%;
+
+}
+.fake_img_content_title{
+
+
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+.fake_img_content_message{
+    line-height: 40px;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 10%;
+}
+
+.fake_img_content_button{
+
+
+
+    margin-top:4%;
+}
+
+.fake_img_btn{
+float:left;
+
+    width:300px;
+    height:40px;
+}
+
+.re_btn{
+float:left;
+
+
+    margin-left : 30px;
+    width:300px;
+    height:40px;
+}

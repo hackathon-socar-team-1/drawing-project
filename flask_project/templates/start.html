@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>시작하기</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css_start.css') }}">
+</head>
+<body>
+
+<img src="{{ url_for('static', filename='img/udo.jpg') }}" class="start_img_css" />
+
+<div class = "start_content_all">
+    <div class = "start_content_title">
+
+        사용자가 꿈꾸는 여행지 추천[1팀]<br><br>
+    </div>
+    <div class = "little_title">
+        <div class = "ll">
+        by 쏘카 실전 데이터로 배우는 AI 엔지니어 육성 부트캠프 2기 <br>
+        <div>
+    </div>
+    <div class = "start_content_message">
+        당신의 그린 스캐치가 하나의 풍경화가 됩니다<br>
+        <br>
+        그림을 잘 그릴 필요 없습니다. <br>
+        여러분의 간단한 스케치 그림으로도 여러분의 꿈의 여행지와 가장 유사한 장소를 찾아줍니다<br>
+        지금부터 인공지능이 안내하는 새로운 여행지로 출발해 봅시다!
+        <br>
+<!--        <div class="ital">" 인공지능이 찾아주는 완벽한 여행지 "<br></div>-->
+        <br>
+
+    </div>
+    <div class = "start_content_button">
+    <button type = "button" class = "navbtn" onclick = "window.location.href='file_upload'" width = "50" height = "50"> start </button>
+    </div>
+</div>
+</body>
+</html>

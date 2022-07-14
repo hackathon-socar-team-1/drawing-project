@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fake_img</title>
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css_fake_img.css') }}">
+</head>
+<body>
+<div class = "fake_img_css">
+    <img src="{{ url_for('static', filename='user_fake_images/fake_img.png') }}" width="300" height="300" class="fake_image_css"><br>
+
+
+</div>
+
+<div class = "fake_img_content_all">
+    <div class = "fake_img_content_inner">
+    <div class = "fake_img_content_title">
+        페이크 이미지<br>
+    </div>
+    <div class = "fake_img_content_message">
+        스캐치 파일에서 변환된 풍경화입니다 <br>
+        이 풍경화 이미지는 feature_extrator와 vgg16모델로 당신의 주변 위치와 유사한 장소를 찾습니다<br>
+        <br>
+
+        페이크 이미지가 마음에 들지 않는다면 다시 그리러가기를 눌러주세요<br>
+        이 그림이 마음에 드신다면 유사한 실제 장소를 찾아보세요!<br>
+
+
+
+    </div>
+    <div class = "fake_img_content_button">
+        <button type = "button" class = "fake_img_btn" onclick = "window.location.href='site'"> 이 그림과 유사한 실제 장소 보러가기</button>
+        <button type = "button" class = "re_btn" onclick = "window.location.href='file_upload'; "> 스캐치 그림 다시 그리러 가기</button>
+    </div>
+
+    </div>
+</div>
+</body>
+</html>

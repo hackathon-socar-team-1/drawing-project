@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css_save_img.css') }}">
+</head>
+<body>
+<div class = "save_img_css">
+    <img src="{{ url_for('static', filename='user_root_test/a/user_root_test_img.png') }}" class="save_image_css" />
+
+
+</div>
+
+<div class = "save_img_content_all">
+    <div class = "save_img_content_inner">
+    <div class = "save_img_content_title">
+        스케치 이미지<br>
+    </div>
+    <div class = "save_img_content_message">
+        당신이 그린 스캐치 파일입니다. <br>
+        이 스캐치 파일은 pix2pix모델로 풍경화로 바뀌게 됩니다<br>
+        1000장 이상의 풍경 데이터로 학습한 모델이 당신의 스케치를 변환해줄 것입니다.<br><br>
+        가려는 장소에 키워드가 있다면 입력하여 주세요!<br>
+        키워드는 지도에서 더 정확한 정보 찾기에 사용됩니다<br>
+        <div class = "save_img_content_button">
+        <button type = "button" class = "save_img_btn" onclick = "window.location.href='fake_img'"> 바로 풍경화 보러가기 </button>
+
+        </div>
+        <form action = "http://localhost:5000/fake_img" method = "POST"
+              enctype = "multipart/form-data" class = "form">
+
+             <input type = "text" name = "text" class = "input_file" />
+             <input type = "submit" />
+        </form>
+        <br>
+
+
+
+
+    </div>
+
+    </div>
+</div>
+</body>
+</html>

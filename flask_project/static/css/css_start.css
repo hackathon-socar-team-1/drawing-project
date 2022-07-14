@@ -1,0 +1,48 @@
+.start_img_css{
+    float: left;
+    width:45%;
+    height:100vh;
+}
+.ital{
+    font-style: italic;
+}
+
+.start_content_all{
+    float:right;
+    width:55%;
+    height:100vh;
+    margin-top: 5%;
+}
+.start_content_title{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+.little_title{
+    text-align: center;
+
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.start_content_message{
+    line-height: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 10%;
+}
+
+.start_content_button{
+
+
+    text-align: center;
+    margin-top:3%;
+}
+
+.navbtn{
+    width:80px;
+    height:40px;
+}

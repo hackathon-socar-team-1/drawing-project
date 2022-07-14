@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fake_img</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css_site.css') }}">
+</head>
+<body>
+<div class = "site_img_css">
+    <img src="{{ url_for('static', filename='similar_site/site_img.png') }}" width="300" height="300"class="site_image_css"><br>
+
+
+</div>
+
+<div class = "site_img_content_all">
+    <div class = "site_img_content_inner">
+    <div class = "site_img_content_title">
+        풍경화와 유사한 장소<br>
+    </div>
+    <div class = "site_img_content_message">
+        당신의 그림과 유사한 장소입니다 <br>
+        <br>
+        장소명 : {{name}}<br>
+        tel : {{tel}}<br>
+        address : {{address}}<br>
+        latitude: {{latitude}}<br>
+        longitude: {{longitude}}<br>
+
+
+    </div>
+    <div class = "site_img_content_button">
+        <button type = "button" class = "site_img_btn" onclick = "window.location.href='/'"> 처음으로 돌아가기</button>
+
+    </div>
+    </div>
+</div>
+</body>
+</html>
