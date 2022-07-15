@@ -33,7 +33,7 @@
 
 ## 👇🏻 서비스 링크
 
-아직 local host
+아직 local host 단계
 
 ## 📷 스크린샷
 
@@ -64,4 +64,4 @@
 
 - ### **크롤링** - python
 
-- ### **사모델** - vgg16, feature0-extractor, unet
+- ### **사용모델** - vgg16, feature0-extractor, unet
